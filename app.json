@@ -4,6 +4,7 @@
     "slug": "fau-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "owner": "stevyhacker",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -25,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.stevyhacker.fauapp"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
