@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native';
 
-import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
+import SendTokens from "../components/SendTokens";
 
 export default function SendScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Send</Text>
+      <Text style={styles.title}>Send FAU</Text>
+      <SendTokens/>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="/screens/SendScreen.tsx" />
     </View>
   );
 }
